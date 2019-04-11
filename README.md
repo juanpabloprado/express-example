@@ -45,7 +45,7 @@ First we will create a bare Express App using `express-generator` [Express Gener
 npm install -g express-generator
 
 # create the sample app
-express express-example
+express --view=pug express-example
 cd express-example
 
 # install all node modules
